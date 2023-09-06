@@ -28,7 +28,7 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           # Update these paths to match your project structure
-          app_location: "swa-db-connections" # App source code path
+          app_location: "dist" # App source code path
           api_location: "api" # Api source code path (if applicable)
           output_location: "dist" # Built app content directory (if applicable)
 
